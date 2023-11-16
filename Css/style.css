@@ -1,0 +1,168 @@
+body {
+  background: linear-gradient(to right, #0c164d 0%, #190b22);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.planets-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+#sun {
+  border-radius: 100%;
+  height: 38rem;
+  width: 28rem;
+  background: url(/img/sun.webp) no-repeat center center / cover;
+  border-radius: 50%;
+  margin-left: -18rem;
+  box-shadow: 0 0 128px rgba(255, 141, 0, 1);
+}
+
+#mercury {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  background: url(/img/mercury.jpeg) no-repeat center center / cover;
+}
+
+#venus {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-left: 2rem;
+  background: url(/img/venus.jpeg) no-repeat center center / cover;
+}
+
+#earth {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-left: 3rem;
+  background: url(/img/earth.webp) no-repeat center center / cover;
+}
+
+#mars {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-left: 4rem;
+  background: url(/img/mars.png) no-repeat center center / cover;
+}
+
+#jupiter {
+  width: 188px;
+  height: 188px;
+  border-radius: 50%;
+  margin-left: 5rem;
+  background: url(/img/jupiter.jpg) no-repeat;
+  background-size: cover;
+}
+#saturnLine {
+  width: 218.23px;
+  height: 5.5px;
+  margin-top: 72px;
+  transform: rotate(141deg);
+  background: #ffffff66;
+  margin-left: -36px;
+  
+}
+
+#saturn-planet {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  margin-left: 5.5rem;
+  background: url(/img/saturn.jpeg) no-repeat center center / cover;
+}
+
+#uranus {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: url(/img/uranus.jpeg) no-repeat;
+  background-size: cover;
+  margin-left: 6rem;
+}
+
+#neptune {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: url(/img/neptune.png) no-repeat center center / cover;
+  margin-left: 7rem;
+}
+button {
+  padding: 10px 40px;
+  border-style: none;
+  color: black;
+  font-size: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  color: #888;
+  text-decoration: none;
+}
+
+.content {
+  font-family: Georgia, serif;
+  color: white;
+  line-height: 20px;
+  background-color: #333;
+ border-radius: 5px;
+  padding: 10px;
+  max-width: 100ch;
+}
+
+dialog {
+  position: absolute;
+  border-radius: 5px;
+  max-width: 100ch;
+  padding: 20px;
+  background-color: #333;
+  border: none;
+}
+dialog h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+h1 {
+  position: relative;
+  float: right;
+  color: white;
+  margin-right: 1rem;
+  font-family: Secular One;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.09em;
+  text-align: right;
+}
+
+h3 {
+  position: relative;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.6em;
+  text-align: right;
+  color: #ffd029;
+  margin-left: 38rem;
+  margin-right: 23px;
+  margin-bottom: -43px;
+}
+
+.content-desc {
+  letter-spacing: 1px;
+}
