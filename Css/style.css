@@ -1,7 +1,5 @@
 body {
   background: linear-gradient(to right, #0c164d 0%, #190b22);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
@@ -165,4 +163,5 @@ h3 {
 
 .content-desc {
   letter-spacing: 1px;
+  margin: 32px 0px;
 }
